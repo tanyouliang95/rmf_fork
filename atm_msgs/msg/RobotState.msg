@@ -1,0 +1,16 @@
+builtin_interfaces/Time robot_time
+string robot_name
+string status
+MapLocation location
+MapLocation[] destinations
+float32 battery_percent
+uint32 mode
+uint32 MODE_NORMAL=0
+uint32 MODE_CHARGING=1
+uint32 MODE_PAUSE=2
+uint32 MODE_EMERGENCY=3
+uint32 MODE_ARM_ERROR=4
+uint32 MODE_PLD_ERROR=5
+uint32 MODE_DOOR_ERROR=6
+uint32 MODE_CANCEL_TASK=7
+int64 unique_task_id

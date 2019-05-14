@@ -1,0 +1,12 @@
+int64 unique_task_id
+int32 req_id
+string pickup
+string delivery
+bool pickup_lift_task
+bool delivery_lift_task
+bool fm_control
+string manipulator_id
+int32 agv_id
+uint8 beverage_select
+string lift_name
+string patient_rfid
