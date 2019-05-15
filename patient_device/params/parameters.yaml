@@ -1,0 +1,6 @@
+patient_device_controller:
+  ros__parameters:
+    patient_device_id: "PD001"
+    half_cycle_period_ms_param: 200
+    reset_time: 60000
+    max_tries: 3
